@@ -4,7 +4,7 @@ import numpy as np
 frameWidth = 640
 frameHeight = 480
 
-cap = cv2.VideoCapture( 0 )
+cap = cv2.VideoCapture( 0 ) #port: change port if using usb camera or laptop camera
 cap.set( 3, 640 )
 cap.set( 4, 480 )
 cap.set( 10, 100 ) 
